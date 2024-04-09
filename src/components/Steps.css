@@ -1,0 +1,99 @@
+.Step{
+    padding-top: 30px;
+    margin-right: 900px;
+     text-align: center;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    color: #363738;
+}
+.steps{
+    max-width: 1290px;
+    margin: 0 auto;
+}
+.cardsteps{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+    max-width: 1283px;
+    align-items: center;
+    margin-top: 30px;
+    border: 1px solid #00000026;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+}
+.stepstitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #363738;
+    border-bottom: 3px solid #FFCE50;
+    width: 200px;
+}
+.stepstext{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6C;
+}
+
+@media only screen and (max-width: 768px) {
+    .Step {
+        margin-right: auto;
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .cardsteps {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 15px;
+        gap: 10px;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .stepstitle {
+        font-size: 18px;
+        line-height: 22px;
+        width: auto;
+    }
+
+    .stepstext {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .steps1img{
+        width: 230px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Step {
+        font-size: 24px;
+        line-height: 36px;
+        margin-right: auto;
+    }
+
+    .cardsteps {
+        padding: 10px;
+        gap: 5px;
+        margin-top: 15px;
+    }
+
+    .stepstitle {
+        font-size: 16px;
+        line-height: 20px;
+        width: auto;
+    }
+
+    .stepstext {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .steps1img{
+        width: 130px;
+        height: 70px;
+    }
+}

@@ -1,0 +1,153 @@
+.cards1{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1290px;
+    justify-content: space-between;
+}
+.card1{
+    max-width: 393px;
+    border: 1px solid #00000026;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+}
+.title1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #363738;
+    padding-left: 10px;
+}
+.text1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6C;
+    max-width: 290px;
+    padding-left: 10px;
+}
+.Title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #363738;
+    text-align: center;
+    margin-right: 800px;
+}
+.Text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6B6C;
+    text-align: center;
+    margin-right: 800px;
+}
+.price{
+    border-bottom: 1px solid #FFCE50;
+    width: 86px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #363738;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cards1 {
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 15px;
+        justify-content: center;
+        max-width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .card1 {
+        text-align: center;
+        align-items: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .title1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .text1 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: none; 
+    }
+
+    .Title {
+        font-size: 36px;
+        line-height: 48px;
+        margin-right: auto; 
+        text-align: center; 
+    }
+
+    .Text {
+        font-size: 14px; 
+        line-height: 20px; 
+        margin-right: auto; 
+        text-align: center; 
+    }
+
+    .price {
+        width: auto; 
+        padding-left: 10px;
+        margin-bottom: 10px; 
+    }
+    .img{
+        width: 310px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card1{
+        text-align: center;
+        align-items: center;
+    }
+    .title1 {
+        font-size: 16px;
+        line-height: 22px;
+        padding-left: 5px; 
+    }
+
+    .text1 {
+        font-size: 12px;
+        line-height: 18px; 
+        padding-left: 5px; 
+    }
+
+    .Title {
+        font-size: 24px; 
+        line-height: 36px; 
+        margin-right: auto; 
+        text-align: center; 
+    }
+
+    .Text {
+        font-size: 12px; 
+        line-height: 18px; 
+        margin-right: auto; 
+        text-align: center; 
+    }
+
+    .price {
+        width: auto; 
+        padding-left: 5px; 
+        margin-bottom: 10px; 
+    }
+    .img{
+        width: 210px;
+        height: 140px;
+    }
+}

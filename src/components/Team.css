@@ -1,0 +1,54 @@
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1290px;
+    padding-top: 20px;
+}
+.teamm:hover{
+    width: 620px;
+    height: 220px;
+    box-shadow: 5px 10px 50px 5px #00000026 ;
+}
+.Step1{
+    padding-top: 30px;
+    margin-right: 740px;
+     text-align: center;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    color: #363738;
+}
+.backpic{
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 1290px;
+    height: 670px;
+}
+ 
+@media only screen and (max-width: 768px) {
+    .Step1 {
+        margin-right: 0;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .backpic {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Step1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .backpic {
+        height: 400px;
+    }
+}

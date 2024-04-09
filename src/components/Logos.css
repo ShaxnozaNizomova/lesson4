@@ -1,0 +1,75 @@
+.logocards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    max-width: 1290px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.logos{
+    width: 184px;
+    height: 183px;
+}
+.logotitle{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #363738;
+    padding-top: 10px;
+}
+.logotext{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6B6B6C;
+}
+.logoimg{
+    width: 99px;
+    height: 101px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logocards {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .logos {
+        width: 100%;
+        height: auto;
+    }
+
+    .logotitle {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .logotext {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .logoimg {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logotitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .logotext {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .logoimg {
+        width: 50px;
+        height: 50px;
+    }
+}
